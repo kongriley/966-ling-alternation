@@ -1,0 +1,75 @@
+var makeModel = function(f) {return function() {
+	var p_animate = 0.5
+    var p_proper = 0.5
+    var p_complex = 0.5
+
+    var p_context = 0.5
+
+    var animate = mem(function(trial) {
+        flip(p_animate)
+    })
+    var proper = mem(function(trial) {
+        flip(p_proper)
+    })
+    var complex = mem(function(trial) {
+        flip(p_complex)
+    })
+
+    var context = mem(function(participant) {
+        flip(p_context)
+    })
+    
+    var of_genitive = mem(function(participant, trial) {
+
+        flip((animate(trial) ? 
+            // animate
+            (complex(trial) ? 0.6 : 0) : 
+            // not animate
+            (complex(trial) ? 0.9 : 
+                (proper(trial) ? 0.3 : 0.4)
+            ))
+         + 0.05 * context(participant)
+        )
+
+    })
+
+    f( animate, proper, complex, context, of_genitive )
+}}
+
+var dist = Infer({method:'enumerate'}, makeModel(function(animate, proper, complex, context, of_genitive) {
+	condition(animate(1) && !complex(1) && !proper(1))
+	return of_genitive(1,1)
+}))
+
+console.log("P(of-genitive | animate, simple) = " + Math.exp(dist.score(true)))
+
+var dist = Infer({method:'enumerate'}, makeModel(function(animate, proper, complex, context, of_genitive) {
+	condition(animate(1) && !complex(1) && proper(1))
+	return of_genitive(1,1)
+}))
+console.log("P(of-genitive | animate, proper) = " + Math.exp(dist.score(true)))
+
+var dist = Infer({method:'enumerate'}, makeModel(function(animate, proper, complex, context, of_genitive) {
+	condition(animate(1) && complex(1) && !proper(1))
+	return of_genitive(1,1)
+}))
+console.log("P(of-genitive | animate, complex) = " + Math.exp(dist.score(true)))
+
+var dist = Infer({method:'enumerate'}, makeModel(function(animate, proper, complex, context, of_genitive) {
+	condition(!animate(1) && !complex(1) && !proper(1))
+	return of_genitive(1,1)
+}))
+
+console.log("P(of-genitive | inanimate, simple) = " + Math.exp(dist.score(true)))
+
+var dist = Infer({method:'enumerate'}, makeModel(function(animate, proper, complex, context, of_genitive) {
+	condition(!animate(1) && !complex(1) && proper(1))
+	return of_genitive(1,1)
+}))
+console.log("P(of-genitive | inanimate, proper) = " + Math.exp(dist.score(true)))
+
+var dist = Infer({method:'enumerate'}, makeModel(function(animate, proper, complex, context, of_genitive) {
+	condition(!animate(1) && complex(1) && !proper(1))
+	return of_genitive(1,1)
+}))
+console.log("P(of-genitive | inanimate, complex) = " + Math.exp(dist.score(true)))

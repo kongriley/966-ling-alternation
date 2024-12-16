@@ -1,0 +1,115 @@
+[
+    {
+        "prefix": "I'll start with the",
+        "completions": ["day's soup", "soup of the day"],
+        "type": "knockout"
+    },
+    {
+        "prefix": "Luke, I am",
+        "completions": ["your father", "the father of you"],
+        "type": "knockout"
+    },
+    {
+        "prefix": "The teacher placed the brightest fruit on the table, pointing proudly at",
+        "completions": ["Mary's apple", "the apple of Mary"],
+        "type": "person",
+        "proper_noun": true
+    },
+    {
+        "prefix": "He bought that gorgeous lamp to serve as the",
+        "completions": ["bedroom's nightlight", "nightlight of the bedroom"],
+        "type": "inanimate"
+    },
+    {
+        "prefix": "The light from the chandelier caught a glimmer of gold on",
+        "completions": ["the woman's earring", "the earring of the woman"],
+        "type": "person"
+    },
+    {
+        "prefix": "Bangkok is",
+        "completions": ["Thailand's capital", "the capital of Thailand"],
+        "type": "inanimate",
+        "proper_noun": true
+    },
+    {
+        "prefix": "You can find many books on the",
+        "completions": ["eight-year-old boy's bookshelf", "bookshelf of the eight-year-old boy"],
+        "type": "person",
+        "complex": true
+    },
+    {
+        "prefix": "The sunlight streaming through the window brought out the",
+        "completions": ["Romantic oil painting's colors", "colors of the Romantic oil painting"],
+        "type": "inanimate",
+        "complex": true
+    },
+    {
+        "prefix": "The fox crept closer, staring intently at the",
+        "completions": ["rabbit's carrot", "carrot of the rabbit"],
+        "type": "animal"
+    },
+    {
+        "prefix": "I'm glad that you weren't bitten by",
+        "completions": ["his gigantic pet snake's fangs", "the fangs of his gigantic pet snake"],
+        "type": "animal",
+        "complex": true
+    },
+    {
+        "prefix": "When it comes to sound quality, I've never heard anything like",
+        "completions": ["Jason's headphones", "the headphones of Jason"],
+        "type": "person",
+        "proper_noun": true
+    },
+    {
+        "prefix": "How can you make a perfectly juicy steak? To avoid overcooking, it's important to carefully control",
+        "completions": ["the steak's temperature", "the temperature of the steak"],
+        "type": "inanimate"
+    },
+    {
+        "prefix": "Being a first-time pet owner, Andy could not help but order the most premium brand for",
+        "completions": ["Fido's kibble", "the kibble of Fido"],
+        "type": "animal",
+        "proper_noun": true
+    },
+    {
+        "prefix": "His gaze shifted to the desk, where a faint scribble trailed off beneath",
+        "completions": ["the student's pencil", "the pencil of the student"],
+        "type": "person"
+    },
+    {
+        "prefix": "The waves crashed relentlessly against",
+        "completions": ["the Titanic's prow", "the prow of the Titanic"],
+        "type": "inanimate",
+        "proper_noun": true
+    },
+    {
+        "prefix": "The child rested her hand on",
+        "completions": ["Bella's paw", "the paw of Bella"],
+        "type": "animal",
+        "proper_noun": true
+    },
+    {
+        "prefix": "The key to the treasure was hidden beneath",
+        "completions": ["the parrot's birdcage", "the birdcage of the parrot"],
+        "type": "animal"
+    },
+    {
+        "prefix": "Josephine has many sisters, but she most admires the",
+        "completions": ["sister that loves to dance's skills", "skills of the sister that loves to dance"],
+        "type": "person",
+        "complex": true
+    },
+    {
+        "prefix": "I wonder if Amazon sells the",
+        "completions": ["guinea pig in the zoo's food", "food of the guinea pig in the zoo"],
+        "type": "animal",
+        "complex": true 
+    },
+    {
+        "prefix": "After years of careful investment, she finally gained access to the",
+        "completions": ["big conglomerate bank's funds", "funds of the big conglomerate bank"],
+        "type": "inanimate",
+        "complex": true
+    }
+
+]

@@ -1,0 +1,182 @@
+[
+    {
+        "prefix": "I'll start with the",
+        "logprobs": [
+            -11.358407974243164,
+            -11.434816360473633
+        ],
+        "prob": 0.5016761206117313,
+        "ratio": 1.0067270330845428
+    },
+    {
+        "prefix": "Luke, I am",
+        "logprobs": [
+            -10.798784255981445,
+            -9.956501007080078
+        ],
+        "prob": 0.47970918640177906,
+        "ratio": 0.9220020301419739
+    },
+    {
+        "prefix": "The teacher placed the brightest fruit on the table, pointing proudly at",
+        "logprobs": [
+            -10.6752290725708,
+            -10.32694149017334
+        ],
+        "prob": 0.49170829554600204,
+        "ratio": 0.9673742286905712
+    },
+    {
+        "prefix": "He bought that gorgeous lamp to serve as the",
+        "logprobs": [
+            -10.630037307739258,
+            -10.340313911437988
+        ],
+        "prob": 0.4930920709607305,
+        "ratio": 0.972744837302656
+    },
+    {
+        "prefix": "The light from the chandelier caught a glimmer of gold on",
+        "logprobs": [
+            -12.59564208984375,
+            -12.046483039855957
+        ],
+        "prob": 0.4888573114717707,
+        "ratio": 0.9564008689616073
+    },
+    {
+        "prefix": "Bangkok is",
+        "logprobs": [
+            -11.630866050720215,
+            -10.558004379272461
+        ],
+        "prob": 0.47582432880410247,
+        "ratio": 0.9077573701933125
+    },
+    {
+        "prefix": "You can find many books on the",
+        "logprobs": [
+            -9.969521522521973,
+            -9.881200790405273
+        ],
+        "prob": 0.49777537737104954,
+        "ratio": 0.991140925678612
+    },
+    {
+        "prefix": "The sunlight streaming through the window brought out the",
+        "logprobs": [
+            -10.480657577514648,
+            -10.254634857177734
+        ],
+        "prob": 0.4945498063012906,
+        "ratio": 0.9784342996930053
+    },
+    {
+        "prefix": "The fox crept closer, staring intently at the",
+        "logprobs": [
+            -12.692782402038574,
+            -12.36996078491211
+        ],
+        "prob": 0.4935597309776021,
+        "ratio": 0.9745665208067683
+    },
+    {
+        "prefix": "I'm glad that you weren't bitten by",
+        "logprobs": [
+            -12.002433776855469,
+            -11.264897346496582
+        ],
+        "prob": 0.4841508158703543,
+        "ratio": 0.9385510935472859
+    },
+    {
+        "prefix": "When it comes to sound quality, I've never heard anything like",
+        "logprobs": [
+            -11.583878517150879,
+            -11.274550437927246
+        ],
+        "prob": 0.493233828977671,
+        "ratio": 0.973296674445813
+    },
+    {
+        "prefix": "How can you make a perfectly juicy steak? To avoid overcooking, it's important to carefully control",
+        "logprobs": [
+            -11.812501907348633,
+            -11.622602462768555
+        ],
+        "prob": 0.4959483977203399,
+        "ratio": 0.9839238591392785
+    },
+    {
+        "prefix": "Being a first-time pet owner, Andy could not help but order the most premium brand for",
+        "logprobs": [
+            -11.61487865447998,
+            -11.114405632019043
+        ],
+        "prob": 0.4889905679353438,
+        "ratio": 0.9569110416605257
+    },
+    {
+        "prefix": "His gaze shifted to the desk, where a faint scribble trailed off beneath",
+        "logprobs": [
+            -12.158193588256836,
+            -11.679046630859375
+        ],
+        "prob": 0.4899496134411313,
+        "ratio": 0.9605906129130686
+    },
+    {
+        "prefix": "The waves crashed relentlessly against",
+        "logprobs": [
+            -11.781147956848145,
+            -11.071600914001465
+        ],
+        "prob": 0.48447567408943615,
+        "ratio": 0.9397726736438927
+    },
+    {
+        "prefix": "The child rested her hand on",
+        "logprobs": [
+            -11.136319160461426,
+            -10.614208221435547
+        ],
+        "prob": 0.4879977407016707,
+        "ratio": 0.9531163814988717
+    },
+    {
+        "prefix": "The key to the treasure was hidden beneath",
+        "logprobs": [
+            -12.030109405517578,
+            -11.793052673339844
+        ],
+        "prob": 0.4950246585362378,
+        "ratio": 0.9802947151861304
+    },
+    {
+        "prefix": "Josephine has many sisters, but she most admires the",
+        "logprobs": [
+            -11.022857666015625,
+            -10.971986770629883
+        ],
+        "prob": 0.49884357228503545,
+        "ratio": 0.995384963053403
+    },
+    {
+        "prefix": "I wonder if Amazon sells the",
+        "logprobs": [
+            -10.376253128051758,
+            -10.50780200958252
+        ],
+        "prob": 0.5031495052245314,
+        "ratio": 1.0126778789903579
+    },
+    {
+        "prefix": "After years of careful investment, she finally gained access to the",
+        "logprobs": [
+            -11.614666938781738,
+            -11.408818244934082
+        ],
+        "prob": 0.4955295931044955,
+        "ratio": 0.982276831963186
+    }
+]
